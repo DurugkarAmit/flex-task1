@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 25vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .im{
+            height: 100%;       
+            width: 100%; 
+        }
+        .im img{
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        nav{
+            width: 80%;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+        nav ul li{
+            cursor: pointer;
+            color: rgb(250, 149, 166);
+        }
+        .c1{
+            height: 75vh;
+            width: 100%;
+        }
+        im1{
+            background-image: url(./campus.webp);
+            position: absolute;
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+        }
+        .im1{
+            background-image: url(./campus.webp);
+            position: absolute;
+            height: 75vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: 100% 100%; 
+        }
+        .c2{
+            background-color: transparent;
+            position: absolute;
+            /* display: flex; */
+            height: 30vh;
+            width: 50vw;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15%;
+            margin-left: 40%;
+            
+        }
+        div h4{
+            color: orangered;
+        }
+        .c2 button{
+            background-color: transparent;
+            height: 25px;
+            width: 130px;
+            margin-top: 10px;
+            margin-left: 90px;
+            border-radius: 10px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="im"><img src="./vector.png" alt=""></div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Course</li>
+                <li>Register</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="c1">
+        <div class="im1"></div>
+        <div class="c2">
+            <section><h4 style="font-size: 25px;">Indias No1 training institute</h4></section>
+            <div style="margin-top: 10px;"><p>To become a full stack developer now you can join with us</p></div>
+            <button>click me to join</button>
+        </div>
+    </div>
+</body>
+</html>
